@@ -181,22 +181,22 @@
         dev.mariamalaa@gmail.com
       </a>
 
-      <form>
+  <form action="https://api.web3forms.com/submit" method="POST">
 
-        <label>Name</label>
-        <input type="text" placeholder="Your name">
+    <input type="hidden" name="access_key" value="4b54-8d7b-db17d7083204">
 
-        <label>Email</label>
-        <input type="email" placeholder="your@email.com">
+    <label>Name</label>
+    <input type="text" name="name" placeholder="Your name" required>
 
-        <label>Message</label>
-        <textarea placeholder="Tell me about your project..."></textarea>
+    <label>Email</label>
+    <input type="email" name="email" placeholder="your@email.com" required>
 
-        <button type="submit">
-          Send Message
-        </button>
+    <label>Message</label>
+    <textarea name="message" placeholder="Tell me about your project..." required></textarea>
 
-      </form>
+    <button type="submit">Send Message</button>
+
+</form>
 
     </div>
     <script src="portfolio.js"></script>
